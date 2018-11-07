@@ -97,10 +97,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-
             if (timercancel) {
                 stopcd(myWebView);
-
             }
             System.out.println("Notification");
             unregisterReceiver(mReceiver);
@@ -117,7 +115,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
 
         // Create an object of our Custom Gesture Detector Class
         CustomGestureDetector customGestureDetector = new CustomGestureDetector();
@@ -179,7 +176,6 @@ public class MainActivity extends AppCompatActivity {
                 } else if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
                     myToolbar2.setVisibility(View.GONE);
                 }
-
 
                 if (newpage) {
                     righttoleft();

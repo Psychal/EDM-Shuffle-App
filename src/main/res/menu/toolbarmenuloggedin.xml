@@ -1,0 +1,90 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings9"
+        android:title="@string/action_settings9"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings10"
+        android:title="@string/action_settings10"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings3"
+        android:title="@string/action_settings3"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings4"
+        android:title="@string/action_settings4"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings7"
+        android:title="@string/action_settings7"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings8"
+        android:title="@string/action_settings8"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/ic_action_menu"
+        android:title="@string/action_menu"
+        app:showAsAction="ifRoom">
+      <menu>
+        <item android:id="@+id/action_menu2"
+        android:title="@string/action_menu2"
+        app:showAsAction="never"/>
+          <item android:id="@+id/action_menu3"
+            android:title="@string/action_menu3"
+            app:showAsAction="never" />
+          <item android:id="@+id/action_menu4"
+              android:title="@string/action_menu4"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu5"
+              android:title="@string/action_menu5"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu6"
+              android:title="@string/action_menu6"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu7"
+              android:title="@string/action_menu7"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu8"
+              android:title="@string/action_menu8"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu9"
+              android:title="@string/action_menu9"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu10"
+              android:title="@string/action_menu10"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu11"
+              android:title="@string/action_menu11"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu12"
+              android:title="@string/action_menu12"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu13"
+              android:title="@string/action_menu13"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu14"
+              android:title="@string/action_menu14"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu15"
+              android:title="@string/action_menu15"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu16"
+              android:title="@string/action_menu16"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu17"
+              android:title="@string/action_menu17"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu18"
+              android:title="@string/action_menu18"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu19"
+              android:title="@string/action_menu19"
+              app:showAsAction="never" />
+          <item android:id="@+id/action_menu20"
+              android:title="@string/action_menu20"
+              app:showAsAction="never" />
+     </menu>
+    </item>
+
+
+</menu>

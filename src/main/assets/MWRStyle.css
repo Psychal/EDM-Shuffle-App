@@ -1,0 +1,64 @@
+@media screen and (orientation: landscape){
+iframe {height:100vh;}
+.template{display:none;}
+.button{display:none;}
+}
+
+@media screen and (orientation: portrait){
+iframe {height:60vh;}
+.template {border-radius: 20px;
+	border: 4px  solid black;
+	text-decoration:underline;
+    color:black;
+    background-color: grey;
+    margin:0px 0px 0px;
+	padding: 0px 15px 0px;
+	font-family:verdana;
+    word-wrap:break-word;
+	}
+
+.toprow-left { position: relative;
+	width:50%;
+    text-decoration:underline;
+    }
+
+.toprow-right {position: absolute;
+	width:100%;
+    top:-16px;
+    right:-101%;
+    text-decoration:underline;
+    }
+}
+
+.container{position:relative;}
+
+.button{position:absolute;
+font-size:20px;
+color:rgba(255,255,255,0.5);
+cursor:pointer;
+vertical-align:middle;
+text-align:middle;
+width:100px;
+height:100%;
+border:0px;
+background-color:rgba(0,0,0,0.3);
+}
+
+.button:hover{
+	color:white;
+	}
+
+.button:active{background-color:rgba(255,255,255,0.5);
+	color:black;
+	}
+
+#next{right:0px;}
+
+#prev{left:0px;}
+
+a {color:inherit;}
+
+body{margin:0px;
+	border:0px;
+   	padding:0px;
+    background-color:black;}

@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="MWRStyle.css" />
+
+<script type="text/javascript" src="newPage.js"></script>
+
+<div class="template">
+    <h3 class="header" id="title">%TITLE%</h3>
+</div>
+
+<div class="container">
+    <button class="button" id="next" onClick="nextPage('Next!')">
+        <span>Next »</span>
+    </button>
+    <button class="button" id="prev">
+        <span>« Prev</span>
+    </button>
+    <iframe width="100%" height="80%" src="%VIDEO%"></iframe>
+</div>
+
+<div class="template">
+    <div class="toprow-left">
+        <p class="text" id="artist"><b>Artist(s):</b> %ARTIST%</p>
+
+        <div class="toprow-right">
+            <p class="text" id="song"><b>Song:</b> %SONG%</p>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="template">
+        <p class="text" id="channel"><b>Channel:</b> %CHANNEL%</p>
+    </div>
+    <div class="template">
+        <p class="text" id="description"><b>Genre:</b> %GENRE%</p>
+    </div>
+</div>
+

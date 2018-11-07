@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EDM Shuffle</string>
+    <string name="action_settings">Login</string>
+    <string name="action_settings2">Create account</string>
+    <string name="action_settings3">Search</string>
+    <string name="action_settings4">About us</string>
+    <string name="action_settings5">Forum</string>
+    <string name="action_settings6">Blog</string>
+    <string name="action_settings7">Privacy policy</string>
+    <string name="action_settings8">Copyright/Legal</string>
+    <string name="action_settings9">Logout</string>
+    <string name="action_settings10">My profile</string>
+    <string name="action_settings11">EDM channels</string>
+    <string name="action_menu">Radio</string>
+    <string name="action_menu2">Popular</string>
+    <string name="action_menu3">Allplus</string>
+    <string name="action_menu4">Electro</string>
+    <string name="action_menu5">Drum and bass</string>
+    <string name="action_menu6">Trance</string>
+    <string name="action_menu7">House</string>
+    <string name="action_menu8">Dubstep</string>
+    <string name="action_menu9">Drumstep</string>
+    <string name="action_menu10">Bounce</string>
+    <string name="action_menu11">Chill</string>
+    <string name="action_menu12">Glitch</string>
+    <string name="action_menu13">Trap</string>
+    <string name="action_menu14">Future bass</string>
+    <string name="action_menu15">Funk</string>
+    <string name="action_menu16">Japanese</string>
+    <string name="action_menu17">Hardstyle</string>
+    <string name="action_menu18">Miscellaneous</string>
+    <string name="action_menu19">Big room</string>
+    <string name="action_menu20">Synchronised</string>
+    <string name="action_navigation">Next</string>
+    <string name="action_navigation2">Stop</string>
+    <string name="action_navigation3">Minimize</string>
+    <string name="action_navigation4">P-mode</string>
+
+</resources>

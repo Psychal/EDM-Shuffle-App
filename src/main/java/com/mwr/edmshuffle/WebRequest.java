@@ -13,37 +13,25 @@ import java.util.Map;
 
 import javax.net.ssl.HttpsURLConnection;
 
-public class WebRequest {
+class WebRequest {
     static String response = null;
-    public final static int GETRequest = 1;
-    public final static int POSTRequest = 2;
+    final static int GETRequest = 1;
+    private final static int POSTRequest = 2;
 
     //Constructor with no parameter
-    public WebRequest() {
+    WebRequest() {
     }
-    /**
-     * Making web service call
-     *
-     * @url - url to make web request
-     * @requestmethod - http request method
-     */
-    public String makeWebServiceCall(String url, int GET) {
-        return this.makeWebServiceCall(url, GET, null);
-    }
-    /**
-     * Making web service call
-     *
-     * @url - url to make web request
-     * @requestmethod - http request method
-     * @params - http request params
-     */
-    public String makeWebServiceCall(String urladdress, int GET,
-                                     HashMap<String, String> params) {
-        URL url;
+
+//     Making web service call
+//     @url - url to make web request
+//     @requestmethod - http request method
+//     @params - http request params
+     String makeWebServiceCall(String urladdress, int GET, HashMap<String, String> params) {
+        URL urlWeb;
         String response = "";
         try {
-            url = new URL(urladdress);
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            urlWeb = new URL(urladdress);
+            HttpURLConnection conn = (HttpURLConnection) urlWeb.openConnection();
             conn.setReadTimeout(15001);
             conn.setConnectTimeout(15001);
             conn.addRequestProperty("Referer", "http://edm-shuffle.com");
@@ -54,7 +42,6 @@ public class WebRequest {
             } else if (GET == GETRequest) {
                 conn.setRequestMethod("GET");
             }
-
             if (params != null) {
                 OutputStream ostream = conn.getOutputStream();
                 BufferedWriter writer = new BufferedWriter(
@@ -71,14 +58,11 @@ public class WebRequest {
                     requestresult.append(URLEncoder.encode(entry.getValue(), "UTF-8"));
                 }
                 writer.write(requestresult.toString());
-
                 writer.flush();
                 writer.close();
                 ostream.close();
             }
             int reqresponseCode = conn.getResponseCode();
-
-
             if (reqresponseCode == HttpsURLConnection.HTTP_OK) {
                 String line;
                 BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));

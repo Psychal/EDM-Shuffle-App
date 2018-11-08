@@ -146,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
         if (timercancel){
             stopcd(myWebView);
         }
-
         super.onUserLeaveHint();
     }
     @Override
@@ -659,7 +658,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -678,7 +676,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -697,7 +694,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -716,7 +712,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -735,7 +730,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -754,7 +748,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -773,7 +766,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -792,7 +784,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -811,7 +802,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -830,7 +820,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -849,7 +838,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -868,7 +856,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -887,7 +874,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -906,7 +892,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -925,7 +910,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
@@ -944,7 +928,6 @@ public class MainActivity extends AppCompatActivity {
                 new GetJSON().execute();
                 if (!firstime){
                     new GetJSON().execute();
-
                 }
                 return true;
 
